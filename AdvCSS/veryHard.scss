@@ -1,0 +1,56 @@
+$myText-align:center ; 
+$primary_1:black ; 
+$myLetter-spacing:  2px ; 
+
+.head{
+    font-style: italic;
+    border-style: solid;
+}
+h1{
+    text-align:$myText-align; 
+    margin-bottom: 10px; 
+    letter-spacing: $myLetter-spacing ;
+
+}
+h5::first-line{
+    color:$primary_1 ; 
+    letter-spacing: $myLetter-spacing; 
+    margin-bottom: 0;
+
+}
+hr {
+    margin-top:0;
+
+}
+
+
+.grid-container{
+    display:grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-gap:50px; 
+    padding: 10px; 
+    margin-left: 80px ; 
+}
+
+  .grid__container--item {
+    text-align: $myText-align;
+    padding: 20px 0;
+    font-size: 30px;
+    width: 300px; 
+    height :1000px; 
+  }
+  .grid__container--item--img{
+      width: 300px; 
+      height : 200px ; 
+      background-size: cover;
+  }
+  .grid__container--content{
+      text-align:$myText-align;
+      font-size: 15px; 
+      line-height: 200%;
+      color:$primary_1; 
+
+  }
+  
+
+    

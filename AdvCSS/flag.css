@@ -1,0 +1,24 @@
+table {
+    width:100%;
+}
+.stars{
+    background: url("../img/easy.jpg") no-repeat ;
+    background-size: cover;
+    position:absolute; 
+    height: 43%;
+    width:45%;
+}
+table , th {
+    border: 1px solid black; 
+    border-collapse: collapse;
+}
+th{
+    padding:15px;
+    height: 19.5px;
+}
+.color-red{
+    background-color: red;
+}
+.color-white{
+    background-color: white;
+}

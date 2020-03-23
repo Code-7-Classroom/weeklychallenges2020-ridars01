@@ -1,0 +1,52 @@
+.head {
+  font-style: italic;
+  border-style: solid;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+h5::first-line {
+  color: black;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+}
+
+hr {
+  margin-top: 0;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+  grid-gap: 50px;
+  padding: 10px;
+  margin-left: 80px;
+}
+
+.grid__container--item {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  width: 300px;
+  height: 1000px;
+}
+
+.grid__container--item--img {
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+}
+
+.grid__container--content {
+  text-align: center;
+  font-size: 15px;
+  line-height: 200%;
+  color: black;
+}
+/*# sourceMappingURL=veryHard.css.map */
