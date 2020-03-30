@@ -1,0 +1,65 @@
+html , body{
+    font-family: 'Russo One' ,sans-serif; 
+    background-color: #F5F5F5;
+}
+
+img{
+    /*float: right;*/
+    width: 200px; 
+    height: 200px ; 
+    padding-bottom : 0 ; 
+    float: right; 
+   
+}
+h1 {
+    text-align: center ; 
+    margin-top : 20px ; 
+    color: #34495e;
+    font-size: 40px;
+}
+.contact-form{
+    /*max-width:600px;*/
+    max-width:80%;
+    margin:auto;
+    margin-top: 100px ;
+    padding: 0 10px;
+    overflow:hidden;
+    
+  }
+  /*This is the style for the boxes*/
+  .contact-form-text{
+    display:block;
+    width:100%;
+    box-sizing:border-box;
+    margin:16px 0;
+    border:0;
+    background:#ddd;
+    padding:20px 40px;
+    outline:none;
+    color:black;
+  }
+  /*This is applied when text box is hoveverd upon*/
+  .contact-form-text:hover/*try focus*/{
+    box-shadow:0 0 10px 4px #34495e;
+  }
+  /*This is for message box*/
+  textarea.contact-form-text{
+    resize:none;/*adds scroll bar to side for more text */
+    height:120px;}
+  /*Send Button*/
+  .contact-form-btn{
+    float:right;
+    border:0;
+    background-color:#34495e;
+    color:#fff;
+    padding:12px 50px  ;
+    border-radius:20px;
+  }
+  .btn-setting{
+      margin-bottom: 20px;
+  }
+label{
+  /*color:#007bb5;*/
+  color: #778899 ;
+  font-weight:25px;
+}
