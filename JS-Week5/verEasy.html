@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>What is the difference between var , let , and const:</h1>
+    <h2>Var:</h2>
+    <p>var declerations are globally scoped or can also be locally scoped. When the var is decalred inside the function
+        it becomes function scoped , which means that if defined within the function the var cannot be accessed outside
+        the function. Also var variables can be re - decalred and updated within the same scope. </p>
+    <h3>More about var: </h3>
+    <p>When a variable is defined outside or inside the parameters it has the ability re-asign itself when told.
+        Sometimes we do not want the variable to re-asign this attribute is not available . Also , var variables are hoisted to the top of its scope and initialized with the value of undefined. </p>
+    <hr>
+    <h2>let: </h2>
+    <p>let is block scoped , a block is a chunk of code bounded by {}, anything within curly braces is a block. Any
+        variable decalred in a block with let is only availible in that block. </p>
+    <h3>More about let : </h3>
+    <p>like var , when let is decalred it can be updates within its scope. On the other hand the decleration cannot be
+        re-decalred within its scope. Also when it comes to hoisting the let keyword is not intialized . It give a refrence error.  </p>
+
+    <h2>Const</h2>
+    <p>const maintains constant values. const declaerations can only be acessed within the block it was decalred jut like let. const cannot be updated or re-decalred. This changes whith const objects. while a cosnt object cannot be updated , the properties of this objects can be updated. As far as hoisting is concerned : ini const it is declared at the top and are not initialized. </p>
+    <script src="veryEasy.js"></script>
+</body>
+
+</html>
