@@ -1,0 +1,23 @@
+{
+  "name": "easy",
+  "version": "1.0.1",
+  "description": "Practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Rida Fatimah",
+  "license": "MIT",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ridars01/practice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ridars01/practice/issues"
+  },
+  "homepage": "https://github.com/ridars01/practice#readme"
+}
